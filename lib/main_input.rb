@@ -11,5 +11,7 @@ puts "Owner of the site in the Apache web directory (Default: \"#{Etc.getlogin}\
 userName = gets.chomp()
 
 	if userName.empty?
-		userName = Etc.getlogin
+		CONST_INPUT_USERNAME = Etc.getlogin
+	else
+		CONST_INPUT_USERNAME = userName
 	end
