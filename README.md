@@ -7,8 +7,8 @@ Creating Virtual Hosts for MAMP and LAMP.
 
 The script needs root-access to write into some files and directories.
 
-Settings can be altered in __settings.rb__.
+Configuration can be changed in __lib/configuration.rb__.
 
-The other two files are templates.
+The files __lib/file_html.rb__ and __lib/vhost.rb__ are templates.
 
-Running the script: __sudo ruby main.rb__
+To run the script: __sudo ruby main.rb__
